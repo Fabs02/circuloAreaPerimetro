@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     print("Digite o diâmetro do circulo: ")
     diametro = readLine()!!.toInt()
 
-    raio = diametro/ 2
+    raio = diametro / 2
     raio.toDouble()
 
     area = pi * (raio * raio)
